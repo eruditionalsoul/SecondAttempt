@@ -13,7 +13,7 @@ class SECONDATTEMPT_API ASecondAttemptGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
+	virtual void StartPlay() override;
 	
 	
 };
